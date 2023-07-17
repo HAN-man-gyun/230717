@@ -1,0 +1,66 @@
+{
+    "name": "MyAction",
+    "maps": [
+        {
+            "name": "AppleControlMap",
+            "id": "d686f9ad-667d-4962-a14e-df61327a9de0",
+            "actions": [
+                {
+                    "name": "AppleEat",
+                    "type": "Button",
+                    "id": "949b18b8-943c-485f-9354-ad32400bf6d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HowToKill",
+                    "type": "Button",
+                    "id": "4a9d8daf-f048-4114-a44e-bbbcc077ac56",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0309b508-fec9-4746-ab2f-d410ec00fece",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AppleController",
+                    "action": "AppleEat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f0c54ef-7d3e-43d0-9ae8-a60e0b1e0acb",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AppleController",
+                    "action": "HowToKill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "AppleController",
+            "bindingGroup": "AppleController",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
